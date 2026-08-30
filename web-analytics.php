@@ -2,13 +2,13 @@
 /**
  * Plugin Name:       Web Analytics
  * Plugin URI:        https://www.github.com/emathcs/web-analytics/
- * Description:       Plugin to manage Analytics script like GA and GTM.
+ * Description:       Plugin to manage Analytics scripts like GA and GTM.
  * Author:            Carlos E. Alvarez
  * Author URI:        https://www.emathcs.com
  * Version:           0.1.0
- * Tested up to:      7.0
- * Requires at least: 7.0
- * Requires PHP:      8.0
+ * Tested up to:      7.1
+ * Requires at least: 6.3
+ * Requires PHP:      8.2.0
  * License:           GNU General Public License v3.0 or later
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  * Powered by:        https://www.aomath.com
@@ -38,7 +38,6 @@ add_action( 'admin_menu', 'web_analytics_add_admin_menu' );
 /**
  * Initializing and registering the settings via API settings
  */
-//
 
 // Default values for the option
 function local_args() {
@@ -52,7 +51,9 @@ function local_args() {
 // Initializing the settings
 function web_analytics_register_settings() {
     /**
+     *
      * Google
+     *
      */
 
     // Creating a section in the custom settings page
