@@ -5,7 +5,7 @@
  * Description:       Plugin to manage Analytics scripts like GA and GTM.
  * Author:            Carlos E. Alvarez
  * Author URI:        https://www.emathcs.com
- * Version:           0.1.0
+ * Version:           1.0.0
  * Tested up to:      7.1
  * Requires at least: 6.3
  * Requires PHP:      8.2.0
