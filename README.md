@@ -1,2 +1,12 @@
 # web-analytics
-Plugin to manage Analytics script like GA and GTM
+
+WordPress plugin.
+
+# About
+
+This is a minimalist plugin to manage Analytics scripts.
+
+Currently, it manages:
+
+- Google Analytics
+- Google Tag Manager
